@@ -38,6 +38,13 @@
 			remoteGlobalIDString = 63793EE3277D8255001687FD;
 			remoteInfo = RepoBTests;
 		};
+		63793F37277D8D42001687FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63793F33277D8D42001687FD /* RepoC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 63793F14277D84DA001687FD;
+			remoteInfo = RepoC;
+		};
 		63F2F336277D7EA900BA105F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 63F2F319277D7EA800BA105F /* Project object */;
@@ -86,6 +93,7 @@
 /* Begin PBXFileReference section */
 		63793EF4277D8255001687FD /* RepoB.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RepoB.xcodeproj; path = ../../RepoB/RepoB.xcodeproj; sourceTree = "<group>"; };
 		63793F06277D8363001687FD /* RepoPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoPlay.swift; sourceTree = "<group>"; };
+		63793F33277D8D42001687FD /* RepoC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RepoC.xcodeproj; path = ../../RepoC/RepoC.xcodeproj; sourceTree = "<group>"; };
 		63F2F31E277D7EA800BA105F /* SomeNewProjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeNewProjApp.swift; sourceTree = "<group>"; };
 		63F2F31F277D7EA800BA105F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		63F2F320277D7EA900BA105F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -153,6 +161,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		63793F34277D8D42001687FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63793F38277D8D42001687FD /* RepoC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		63F2F318277D7EA800BA105F = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +185,7 @@
 		63F2F31D277D7EA800BA105F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				63793F33277D8D42001687FD /* RepoC.xcodeproj */,
 				63793EF4277D8255001687FD /* RepoB.xcodeproj */,
 				63F2F3B0277D803E00BA105F /* RepoA.xcodeproj */,
 				63F2F367277D7F8C00BA105F /* Source */,
@@ -361,6 +378,10 @@
 					ProductGroup = 63793EF5277D8255001687FD /* Products */;
 					ProjectRef = 63793EF4277D8255001687FD /* RepoB.xcodeproj */;
 				},
+				{
+					ProductGroup = 63793F34277D8D42001687FD /* Products */;
+					ProjectRef = 63793F33277D8D42001687FD /* RepoC.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -385,6 +406,13 @@
 			fileType = wrapper.cfbundle;
 			path = RepoBTests.xctest;
 			remoteRef = 63793EFB277D8255001687FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		63793F38277D8D42001687FD /* RepoC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RepoC.framework;
+			remoteRef = 63793F37277D8D42001687FD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		63F2F3B6277D803F00BA105F /* RepoA.framework */ = {
