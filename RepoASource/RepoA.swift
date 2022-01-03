@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import RepoC
 
 open class A {
     
@@ -14,9 +13,6 @@ open class A {
     
     public func callA() {
         print("A")
-        
-        let c = C()
-        c.callC()
     }
     
 }

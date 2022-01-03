@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		63793F09277D83BB001687FD /* RepoA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63793ECA277D8146001687FD /* RepoA.swift */; };
-		63793F3E277D8D9E001687FD /* RepoC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63793F3D277D8D9E001687FD /* RepoC.framework */; };
 		63F2F3A0277D803E00BA105F /* RepoA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F2F396277D803E00BA105F /* RepoA.framework */; };
 		63F2F3A5277D803E00BA105F /* RepoATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F2F3A4277D803E00BA105F /* RepoATests.swift */; };
 		63F2F3A7277D803E00BA105F /* RepoA.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F2F399277D803E00BA105F /* RepoA.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,7 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63793F3E277D8D9E001687FD /* RepoC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
