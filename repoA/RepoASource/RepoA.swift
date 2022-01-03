@@ -19,4 +19,8 @@ open class A {
         c.callC()
     }
     
+    public func trialMethod() {
+        
+    }
+    
 }
